@@ -1,0 +1,16 @@
+package com.example.Hrms.entities.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployerDto {
+    private String companyName;
+    private String email;
+    private String webSite;
+    private String telephoneNumber;
+    private String url;
+}
